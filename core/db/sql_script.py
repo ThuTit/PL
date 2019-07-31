@@ -1,0 +1,1 @@
+insert_promotion_warning = "INSERT INTO `price_promotion_management`.`promotion_warnings` (`created_at`, `updated_at`, `object`, `object_id`, `is_expired`, `data`) VALUES ('2019-07-17 02:22:08.904665', '2019-07-17 02:22:08.904665', 'promotion', 53, 0, '{\"skus_out_of_stock\": [\"1200108\"]}')"
