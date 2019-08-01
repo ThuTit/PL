@@ -14,6 +14,7 @@ JIRA_URL = os.getenv('JIRA_URL')
 
 PL_URL_DEV = os.getenv('PL_URL_DEV')
 PL_URL_TEST = os.getenv('PL_URL_TEST')
+PL_URL_UAT = os.getenv('PL_URL_UAT')
 
 PPM_URL = os.getenv('PPM_URL')
 
