@@ -80,6 +80,15 @@ class JiraTestService(TestServiceInterface):
         requests.post(url=self.url + '/testrun',
                       json=json,
                       auth=self.auth_string)
+    def transition_status_task(self, issue_key):
+        json = {
+            'transition': {
+                'id': '701'
+            }
+        }
+        requests.post(url=self.issue_url + '/' + issue_key + '/transitions?expand=transitions.fields',
+                      json=json,
+                      auth=self.auth_string)
 
 
 def jira_test_service():
