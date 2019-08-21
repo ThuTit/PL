@@ -6,3 +6,7 @@ docstring-parser == 0.3
 PyMySql == 0.9.3
 pytest-bdd == 3.1.1
 pytest-splinter == 2.0.1
+faker == 2.0.0
+psycopg2 == 2.8.3
+pyhumps == 1.2.2
+git+https://c8bc5e572849fc5102a6ea146ad96db174c8ef48@github.com/teko-vn/es-updater.git@v1.5

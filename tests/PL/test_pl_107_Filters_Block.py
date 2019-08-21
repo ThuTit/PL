@@ -3,7 +3,7 @@ import requests
 url = PL_URL_TEST + 'api/search/'
 
 class TestFiltersBlock():
-    ISSUE_KEY = 'PL-93'
+    ISSUE_KEY = 'PL-107'
     def test_filters_null(self):
         '''
         Trường filters = null 123

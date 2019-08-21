@@ -3,7 +3,7 @@ from settings import PL_URL_DEV
 
 url = PL_URL_DEV + 'api/search/'
 class TestPL106():
-    ISSUE_KEY = 'PL-93'
+    ISSUE_KEY = 'DP-20'
     def test_responses_are_products(self):
         data = {
             'channel': 'pv_online',
@@ -18,6 +18,7 @@ class TestPL106():
             assert result['result']['products'][i] != []
             assert result['result']['filters'] == []
             assert result['result']['keywords'] == []
+
 
     def test_responses_are_products_space_start_end(self):
         data = {

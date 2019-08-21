@@ -10,19 +10,19 @@ def get_current_time():
 
 
 class TestServiceInterface():
-    def get_issue_info():
+    def get_issue_info(self):
         raise NotImplementedError()
 
-    def get_tests_in_issue():
+    def get_tests_in_issue(self):
         raise NotImplementedError()
 
-    def create_test():
+    def create_test(self):
         raise NotImplementedError()
 
-    def delete_test():
+    def delete_test(self):
         raise NotImplementedError()
 
-    def create_test_cycle():
+    def create_test_cycle(self):
         raise NotImplementedError()
 
 

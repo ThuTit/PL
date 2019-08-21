@@ -3,7 +3,7 @@ import requests
 import pytest
 
 
-from core.Excel2Data import create_data_test
+from support.Excel2Data import create_data_test
 
 url = PL_URL_UAT + 'api/search/'
 

@@ -1,5 +1,6 @@
 from settings import PL_URL_TEST, PL_URL_DEV
 import requests
+import time
 
 
 url = PL_URL_DEV + 'api/search/'
@@ -21,6 +22,7 @@ class TestPL111():
             'DISABLE_SIGN': 'bG9pdGllbnByb2R1Y3RsaXN0aW5n',
             'q': '1806180'
         }
+        time.sleep(20)
         response = requests.get(url, params=data)
         result = response.json()
         total_stocks = 0
